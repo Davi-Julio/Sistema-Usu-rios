@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,300&family=Roboto+Condensed:ital@1&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.header h1 {
+    border-bottom: 1px solid black;
+
+}
+
+.header nav {
+    margin: 0px 20px;
+}
+
+.header nav a {
+    text-decoration: none;
+    border: none;
+    padding: 5px 15px;
+    background-color: green;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3% 2%;
+}
+
+.figure-main img {
+    width: 25vw;
+    box-shadow: 10px 10px 20px black;
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 40px 25px;
+    border-radius: 10px;
+    box-shadow: 20px 10px 10px black;
+}
+
+.form input {
+    width: 40vw;
+    height: 7vh;
+    margin-bottom: 10px;
+}
+
+#btn {
+    width: 25vw;
+    height: 6vh;
+}
